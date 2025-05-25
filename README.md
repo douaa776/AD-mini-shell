@@ -1,6 +1,6 @@
 # AD-mini-shell
 
- 🐚 Mini Shell – Projet1
+ 🐚 **Mini Shell – Projet1**
  
 Ce projet est un mini-shell fonctionnel développé en langage C.
 Il a été conçu et testé dans un environnement Ubuntu 22.04 sur machine virtuelle VMware.
