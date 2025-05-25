@@ -11,54 +11,54 @@ Il a été conçu et testé dans un environnement Ubuntu 22.04 sur machine virtu
 **⚙️ Fonctionnalités principales**
 
  
-Interface "REPL" (Read-Eval-Print Loop) interactive
+-Interface "REPL" (Read-Eval-Print Loop) interactive
 
 
-Commande "cd" pour naviguer dans les répertoires
+-Commande "cd" pour naviguer dans les répertoires
 
 
-Commande "echo" pour afficher du texte
+-Commande "echo" pour afficher du texte
 
 
-Commande "env" pour afficher les variables d’environnement
+-Commande "env" pour afficher les variables d’environnement
 
 
-Commande "exit" pour quitter proprement le shell
+-Commande "exit" pour quitter proprement le shell
 
 
-Interface personnalisée avec couleurs ANSI
+-Interface personnalisée avec couleurs ANSI
 
 
 
 **🗂️ Architecture du projet**
 
 
-minishell.c	  : Boucle principale du shell et logique REPL
+-minishell.c	  : Boucle principale du shell et logique REPL
 
 
-builtin.c	    : Fonctions internes (cd, echo, etc.)
+-builtin.c	    : Fonctions internes (cd, echo, etc.)
 
 
-utils.c	      : Fonctions utilitaires
+-utils.c	      : Fonctions utilitaires
 
 
-minishell.h	  : Déclarations des fonctions et structures
+-minishell.h	  : Déclarations des fonctions et structures
 
 
  
 **🐧 Environnement de développement**
 
 
-Système     : Ubuntu 22.04 LTS
+-Système     : Ubuntu 22.04 LTS
 
 
-Plateforme  : Machine Virtuelle VMware Workstation
+-Plateforme  : Machine Virtuelle VMware Workstation
 
 
-Langage     : C
+-Langage     : C
 
 
-Compilation : gcc minishell.c builtin.c utils.c -o minishell
+-Compilation : gcc minishell.c builtin.c utils.c -o minishell
 
 
 
