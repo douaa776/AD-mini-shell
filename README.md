@@ -1,2 +1,6 @@
 # AD-mini-shell
-Mini Shell réalisé en langage C dans un environnement Ubuntu 22.04 sur machine virtuelle VMware 
+
+- Système : **Ubuntu 22.04 LTS**
+- Plateforme : **Machine Virtuelle VMware Workstation**
+- Langage : **C**
+- Compilation : `gcc minishell.c builtin.c utils.c -o minishell`
